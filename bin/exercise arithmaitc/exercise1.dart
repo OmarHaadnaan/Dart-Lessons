@@ -1,4 +1,10 @@
 void main() {
+  //Exercise file
+  //https://github.com/OmarHaadnaan/Dart-Lessons/blob/main/bin/exercise%20arithmaitc/exercise1.dart
+
+  //Operator Precedence and Associativity Table
+  //https://www.geeksforgeeks.org/operator-precedence-and-associativity-in-c/
+
   // Given the following values:
   int a = 40;
   int b = 9;
@@ -10,7 +16,6 @@ void main() {
   print(((a + b) * c) / d);
 
   // b. Find the result of ((a - b) ~/ c) * d
-
 
   print(((a - b) ~/ c) * d);
 
@@ -52,10 +57,14 @@ void main() {
   int s = 6;
 
   // a. Compute ((p * q) ~/ (r + s)) % p
+
+  //print(((p * q) ~/ (r + s)) % p);
+
   // TODO: Write your code here
 
   // b. Find the result of ((p + r) * (q - s)) / (r + p)
   // TODO: Write your code here
+  print(((p + r) * (q - s)) / (r + p));
 
   // c. Calculate ((p + q) * r - s) / p + (q % r)
   // TODO: Write your code here
